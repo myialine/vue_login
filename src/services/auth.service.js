@@ -26,5 +26,6 @@ class AuthService{
             password:user.password
         });
     }
-
 }
+
+export default new AuthService();
